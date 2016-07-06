@@ -1,10 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<ion-side-menus enable-menu-with-back-views="true">
+  <ion-side-menu side="left">
+    <ion-content padding="false" class="side-menu-left has-header">
+      <ion-list id="subscribedClubs-list1" class=" ">
+        <div class="item item-body " id="subscribedClubs-list-item-container2">
+          <ion-list id="subscribedClubs-list3">
+            <ion-checkbox>Club 1</ion-checkbox>
+            <ion-checkbox>Club 2</ion-checkbox>
+            <ion-checkbox>Club 3</ion-checkbox>
+          </ion-list>
+        </div>
+        <ion-item id="subscribedClubs-list-item2">Sign Out</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
 
-</body>
-</html>
+
+
+
+  <ion-side-menu-content>
+    <ion-view title="Clubmeets Feed">
+      <ion-content padding="false" class="has-header">
+        <ion-list id="clubmeets-list2" class=" manual-list-fullwidth ">
+          <ion-item class="item-avatar  " id="clubmeets-list-item7">
+            <h2>Title</h2>
+            <p>First few lines of story...</p>
+          </ion-item>
+          <ion-item class="item-avatar  " id="clubmeets-list-item8">
+            <h2>Title</h2>
+            <p>First few lines of story...</p>
+          </ion-item>
+          <ion-item class="item-avatar  " id="clubmeets-list-item9">
+            <h2>Title</h2>
+            <p>First few lines of story...</p>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-view>
+  </ion-side-menu-content>
+
+</ion-side-menus>
